@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- Contact Us Page -->
+<div id="contact-page" class="page">
+  <div class="header">
+    <img src="dog-icon.png" alt="Dog Icon">
+    <h1>Contact Us</h1>
+  </div>
+  <ul>
+    <li>Email: pawesome@example.com</li>
+    <li>Mailing Address: 123 Paws Street, Dogtown</li>
+    <li>Phone: 123-456-7890</li>
+  </ul>
+  <button id="back-to-blog">Back to Blog</button>
+</div>
+
+<script>
+  // Go back to Blog page
+  $(document).ready(function(){
+    $("#back-to-blog").click(function(){
+      window.location.href = "index.html";
+    });
+  });
+</script>
+
+</body>
+</html>
