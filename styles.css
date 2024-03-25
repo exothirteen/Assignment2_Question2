@@ -118,4 +118,23 @@ body {
       font-size: 18px;
     }
   }
+
+#generated-content {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #423f3f;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#generated-content h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#generated-content p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
   
