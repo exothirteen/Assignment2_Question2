@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .page {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #ff9f00;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ff9f00;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Table of Contents */
+  #table-of-contents {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  #table-of-contents h2 {
+    border-bottom: 2px solid #ff9f00;
+    padding-bottom: 5px;
+  }
+  
+  #table-of-contents ul li {
+    margin-bottom: 10px;
+  }
+  
+  #table-of-contents ul li a {
+    font-size: 18px;
+  }
+  
+  /* Links and Buttons */
+  button, a.button {
+    padding: 10px 20px;
+    background-color: #ff9f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button:hover, a.button:hover {
+    background-color: #ffbf69;
+  }
+  
+  /* Specific Page Styles */
+  #blog-page {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #contact-page {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Media Query for Responsive Layout */
+  @media only screen and (max-width: 600px) {
+    .page {
+      padding: 10px;
+    }
+  
+    .header img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+#generated-content {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #423f3f;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#generated-content h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#generated-content p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+  
